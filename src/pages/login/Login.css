@@ -1,0 +1,23 @@
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('../../assets/esportes.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 24px;
+    width: 420px;
+    border-radius: 8px;
+}
+
+.login h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
