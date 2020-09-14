@@ -2,15 +2,21 @@ import React from 'react';
 import './Clientes.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import { Button, Table, Card } from 'react-bootstrap';
+import { Button, Table, Card, Container, Row, Col } from 'react-bootstrap';
 
 function Lista() {
   return (
     <div className="clientesContainer">
         <Card>
             <Card.Header>
-                Clientes  
-                <Button className="ml-3">Adicionar Novo Cliente</Button>
+                <Container>
+                    <Row>
+                        <Col sm="10">Clientes</Col>
+                        <Col sm="2">
+                            <Button className="btn-block">Adicionar Novo Cliente</Button>
+                        </Col>
+                    </Row>
+                </Container>
             </Card.Header>
         <Card.Body>
                 <Table striped bordered hover>
