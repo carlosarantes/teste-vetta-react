@@ -1,6 +1,7 @@
 import React from 'react';
 import './Clientes.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 import { Button, Table, Card, Container, Row, Col } from 'react-bootstrap';
 
@@ -13,8 +14,10 @@ function Lista() {
                     <Row>
                         <Col sm="10">Clientes</Col>
                         <Col sm="2">
-                            <Button className="btn-block">Adicionar Novo Cliente</Button>
-                        </Col>
+                            <Link to="/form-cliente" className="study">  
+                                Adicionar Novo Cliente
+                            </Link>
+                         </Col>
                     </Row>
                 </Container>
             </Card.Header>

@@ -1,6 +1,7 @@
 import React from 'react';
 import './Login.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 import { Button, Form } from 'react-bootstrap';
 
@@ -19,9 +20,11 @@ function Login() {
                     <Form.Label>Password</Form.Label>
                     <Form.Control placeholder="Senha" type="password" maxLength="16" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
+    
+
+                <Link to="/lista-clientes" className="study">  
                     Acessar
-                </Button>
+                </Link>
             </Form>
         </div>
       </div>

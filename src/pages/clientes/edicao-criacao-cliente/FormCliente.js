@@ -1,6 +1,7 @@
 import React from 'react';
 import './Clientes.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 import { Button, Card, Form, Container, Row, Col } from 'react-bootstrap';
 
@@ -16,7 +17,9 @@ function FormCliente() {
                     <Row>
                         <Col sm="10">Clientes</Col>
                         <Col sm="2">
-                            <Button className="btn-block">Voltar</Button>
+                            <Link to="/lista-clientes" className="study">  
+                                Voltar
+                            </Link>
                         </Col>
                     </Row>
                 </Container>
