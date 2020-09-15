@@ -3,7 +3,7 @@ import './Clientes.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Link } from 'react-router-dom';
 
-import { Button, Table, Card, Container, Row, Col } from 'react-bootstrap';
+import { Table, Card, Container, Row, Col } from 'react-bootstrap';
 import api from '../../../services/api';
 
 function Lista() {

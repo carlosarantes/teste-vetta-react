@@ -17,7 +17,7 @@ function FormCliente() {
                     <Row>
                         <Col sm="10">Clientes</Col>
                         <Col sm="2">
-                            <Link to="/lista-clientes" className="study">  
+                            <Link to="/lista-clientes" className="btn btn-primary">  
                                 Voltar
                             </Link>
                         </Col>
